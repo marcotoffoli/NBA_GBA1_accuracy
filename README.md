@@ -1,7 +1,7 @@
 # Assessing the Accuracy of the NeuroBooster Array for GBA1 Variant Detection
 #Author: Marco Toffoli (m.toffoli@ucl.ac.uk)
 #Last modified 08th September 2026
-# GP2 ❤️ Open Science 😍
+## GP2 ❤️ Open Science 😍
 
 Accuracy of NeuroBooster Array (NBA) genotype calls for GBA1 variants, benchmarked
 against orthogonal sequencing in three GP2 cohorts.
