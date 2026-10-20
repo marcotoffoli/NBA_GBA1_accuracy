@@ -1,37 +1,10 @@
 # Assessing the Accuracy of the NeuroBooster Array for GBA1 Variant Detection
-
-- Author: Marco Toffoli (m.toffoli@ucl.ac.uk)
-
+#Author: Marco Toffoli (m.toffoli@ucl.ac.uk)
+#Last modified 20th October 2026
 ## GP2 ❤️ Open Science 😍
 
-[![DOI](https://zenodo.org/badge/DOI/nnnnn/zenodo.nnnnn.svg)](https://doi.org/nnnnn/zenodo.nnnnn) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**Last updated:** September 8th 2026
-
-## Summary
-This is the online repository for the manuscript titled "Assessing the Accuracy of the NeuroBooster Array for GBA1 Variant Detection". This study evaluates the accuracy of NeuroBooster Array (NBA) genotype calls for GBA1 variants, benchmarked against orthogonal sequencing in three GP2 cohorts.
-
-## Data statement
-All GP2 data are hosted in collaboration with the Accelerating Medicines Partnership in Parkinson’s disease, and are available via application on the website (https://amp-pd.org/register-for-amp-pd). For up-to-date information on GP2 data acquisition, access, and policies, visit https://gp2.org/. 
-
-All data was using GP2 release 11 (https://zenodo.org/records/17753486). Genotyping imputation, quality control, ancestry prediction, and processing were performed using GenoTools (v1.0.0), publicly available on GitHub.
-
-## Helpful Links
-
-- [GP2 Website](https://gp2.org/)
-  - [GP2 Cohort Dashboard](https://gp2.org/cohort-dashboard-advanced/)
-- [Introduction to GP2](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.28494)
-  - [Other GP2 Manuscripts (PubMed)](https://pubmed.ncbi.nlm.nih.gov/?term=%22global+parkinson%27s+genetics+program%22)
-
-## Repository orientation
-
-<pre> NBA_GBA1_accuracy/
-  ├── analyses/
-  |     └── 00_GBA1_NBA_accuracy.ipynb
-  ├── LICENSE
-  └── README.md
-</pre>
-
+Accuracy of NeuroBooster Array (NBA) genotype calls for GBA1 variants, benchmarked
+against orthogonal sequencing in three GP2 cohorts.
 
 ## Cohorts (truth sets)
 | Cohort                                    | Truth source file                                        |
@@ -81,6 +54,14 @@ code_for_analysing_all_data.ipynb   full analysis pipeline
 | numpy                   | v2.4.3               | RRID:SCR_008633  |
 | pgenlib                 | v0.93.0              | RRID:SCR_001757  |
 
+## Repository orientation
+
+<pre> NBA_GBA1_accuracy/
+  ├── analyses/
+  |     └── 00_GBA1_NBA_accuracy.ipynb
+  ├── LICENSE
+  └── README.md
+</pre>
 
 ## Analysis notebooks
 
